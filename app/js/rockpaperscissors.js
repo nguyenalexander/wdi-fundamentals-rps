@@ -62,14 +62,9 @@ function getWinner(playerMove,computerMove) {
         winner = computer;
         console.log("Computer Wins!");
     }
-    else if (playerMove == "rock" && computerMove == "rock" {
+    else (playerMove === computerMove) {
         winner = tie;
-    }
-    else if (playerMove == "scissors" && computerMove == "scissors") {
-        winner = tie;
-    }
-    else if (playerMove == "paper" && computerMove == "paper") {
-        winner = tie;
+        console.log("Tie!");
     }
     return winner;
 } -
