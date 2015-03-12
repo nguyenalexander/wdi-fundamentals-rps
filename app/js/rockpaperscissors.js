@@ -46,6 +46,9 @@ function getWinner(playerMove,computerMove) {
     else if (playerMove === computerMove) {
         return ("Tie!");
     }
+    else {
+        return ("There seems to be an error in your input. Try again!")
+    }
 }
 
 
@@ -80,3 +83,5 @@ function playToFive() {
     return [playerWins, computerWins];
 }
 playToFive();
+
+//completed and tested code.//
